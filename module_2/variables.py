@@ -1,29 +1,43 @@
 ## Exercises: Level 1
+
 #### Write a python comment saying 'Day 2: 30 Days of python programming'
 print("Day 2: 30 Days of python programming")
+
 #### Declare a first name variable and assign a value to it
 first_name = 'Sani'
+
 #### Declare a last name variable and assign a value to it
 last_name = 'Bala'
+
 #### Declare a full name variable and assign a value to it
 full_name = f"{first_name}, {last_name}"
+
 #### Declare a country variable and assign a value to it
 country = 'Nigeria'
+
 #### Declare a city variable and assign a value to it
 city = 'Kano'
+
 #### Declare an age variable and assign a value to it
 age = 35
+
 #### Declare a year variable and assign a value to it
 year = 1987
+
 #### Declare a variable is_married and assign a value to it
 is_married = True
+
 #### Declare a variable is_true and assign a value to it
 is_true = 'first'
+
 #### Declare a variable is_light_on and assign a value to it
 is_light_on = 'yes'
+
 #### Declare multiple variable on one line
 first_name, last_name, country, age, is_married = 'Nura', 'Salim', 'Kano', 30, True
+
 ## Exercises: Level 2
+
 #### Check the data type of all your variables using type() built-in function
 first_name = 'Sani'
 print(type(first_name));
