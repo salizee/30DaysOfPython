@@ -1,0 +1,41 @@
+# Declare your age as integer variable
+age = 35
+
+# Declare your height as a float variable
+height = float(24.7)
+
+# Declare a variable that store a complex number
+myNum = (3+2j)
+
+# Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
+b = int(input("Input the base : "))
+h = int(input("Input the height : "))
+area = 0.5 * b * h
+print("area = ", area)
+
+# Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c)
+
+a = int(input("Enter side a : "))
+b = int(input("Enter side b : "))
+c = int(input("Enter side c : "))
+perimeter = a + b + c
+print("Perimeter = ", perimeter)
+
+
+# Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width)
+
+length = float(input("Enter the length of the rectangle: ")) 
+width = float(input("Enter the width of the rectangle: ")) 
+area = calculate_rectangle_area(length, width) 
+print(f"The area of the rectangle is: {area}") 
+
+perimeter = 2 * (length + width)
+print(f"The perimeter of the rectangle is: {perimeter}")
+
+# Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
+
+from math import pi
+r = float(input("Input the radius of the circle : "))
+area = pi * r ** 2
+c = 2 * pi * r
+print("The area of the circle with circumference " + str(c) + " is: " + str(area))
