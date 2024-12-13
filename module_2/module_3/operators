@@ -23,11 +23,13 @@ print("Perimeter = ", perimeter)
 
 
 # Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width)
+def calculate_rectangle_area(length, width):
+    return length * width
 
-length = float(input("Enter the length of the rectangle: ")) 
-width = float(input("Enter the width of the rectangle: ")) 
-area = calculate_rectangle_area(length, width) 
-print(f"The area of the rectangle is: {area}") 
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+area = calculate_rectangle_area(length, width)
+print(f"The area of the rectangle is: {area}")
 
 perimeter = 2 * (length + width)
 print(f"The perimeter of the rectangle is: {perimeter}")
