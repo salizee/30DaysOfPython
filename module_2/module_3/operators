@@ -39,3 +39,39 @@ r = float(input("Input the radius of the circle : "))
 area = pi * r ** 2
 c = 2 * pi * r
 print("The area of the circle with circumference " + str(c) + " is: " + str(area))
+
+# Calculate the slope, x-intercept and y-intercept of y = 2x -2
+# Find the slope
+slope = 2
+
+# Find the y-intercept
+y_intercept = -2
+
+# Find the x-intercept
+x_intercept = 1  # since equation(1) = 0
+
+# Print the results
+print("Slope: ", slope)
+print("Y-intercept: ", y_intercept)
+print("X-intercept: ", x_intercept)
+
+# Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+# Import the math module to use the square root function.
+import math
+
+# Define the coordinates of the first point (p1) as a list.
+p1 = [2, 2]
+
+# Define the coordinates of the second point (p2) as a list.
+p2 = [6, 10]
+
+# Calculate the distance between the two points using the distance formula.
+# The formula computes the Euclidean distance in a 2D space.
+distance = math.sqrt(((p1[0] - p2[0]) ** 2) + ((p1[1] - p2[1]) ** 2))
+
+# Print the calculated distance.
+print(distance)
+
+# Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+print(len('python') == len('dragon'))
+
