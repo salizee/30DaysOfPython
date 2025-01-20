@@ -1,6 +1,7 @@
-# Day 14: 30 days of Python programming
+# Module 9: 
 
-# Exercises: Level 1
+# Exercises: Level 1 (Higher Order Functions)
+
 countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
 names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
