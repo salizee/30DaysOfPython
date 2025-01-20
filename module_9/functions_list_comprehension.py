@@ -1,6 +1,6 @@
 #Module 9: Functions
 
-#Exercises Level 1
+#Exercises Level 1 (List comprehension)
 
 """1. Declare a function add_two_numbers. It takes two parameters and it returns a sum.
 """
